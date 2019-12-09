@@ -1,0 +1,99 @@
+#grid{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product{
+  display: flex;
+  width: 400px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgray;
+  margin-bottom: 50px;
+  border-radius: 25px;
+}
+#brand{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.3cm;
+  padding-left: 10px;
+  color: darkgray;
+}
+
+#image{
+  height: 300px;
+  width: 300px;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+#title{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 0.4cm;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: darkslategray;
+}
+
+#rating{
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+#reviewCount{
+  padding-top: 4.5px;
+  padding-left: 4px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.35cm;
+  color: gray;
+  
+}
+
+#price{
+  padding-left: 10px;
+  padding-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: oblique;
+  font-weight: 545;
+}
+
+#avalability{
+  padding-left: 13px;
+  padding-bottom: 10px;
+  font-size: 0.37cm;
+  font-style: unset;
+  font-weight: 200;
+  color: gray
+}
+
+#price-rating{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+#buy_now{
+  padding-left: 40%;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  border-radius: 0;
+}
+
+#buy_button{
+  padding: 5px 15px;
+  background-color: #eaeaea;
+  color: #767676;
+  border-radius: 20px;
+  outline: none;
+}
+
+.ava{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.33cm;
+}
