@@ -1,7 +1,5 @@
 # Product_Grid
 
-One Paragraph of project description goes here
-
 ## Summary
 
 The product grid is simply a layout that contains multiple products and can be found in the following places:
